@@ -1,5 +1,5 @@
-All raw datasets used in this project are stored in the AWS S3 bucket:
-arn:aws:s3:::ads508-team1-sephora
+All raw datasets used in this project are stored in the AWS S3 bucket:   
+arn:aws:s3:::ads508-team1-sephora    
 
 	•	product_info.csv
 	•	reviews_0-250.csv
