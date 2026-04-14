@@ -224,8 +224,6 @@ Amazon SageMaker Studio    Amazon Athena
 ## 📎 Links
 
 - **GitHub Repository:** [https://github.com/xuany823/ads508-FinalProject-Team1](https://github.com/xuany823/ads508-FinalProject-Team1)
-- **Ingestion Notebook:** [sephora_pipeline.ipynb](https://github.com/xuany823/ads508-FinalProject-Team1/blob/Michelle/sephora_pipeline.ipynb)
-- **EDA Notebook:** [sephora-eda.ipynb](https://github.com/xuany823/ads508-FinalProject-Team1/blob/Jimmy/sephora-eda.ipynb)
 - **Data Source:** [Kaggle — Sephora Products & Skincare Reviews](https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews)
 
 ---
