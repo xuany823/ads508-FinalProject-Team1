@@ -132,7 +132,7 @@ Amazon SageMaker Studio    Amazon Athena
 | `price_bucket` | Bucketed into `budget / low_mid / mid / premium` |
 | `log_loves` | `log1p(loves_count)` — reduces skew from viral products |
 | `num_ingredients` | Count of ingredients per product |
-| `ing_*` (×100) | TF-IDF binary indicators for top 100 ingredients (e.g., `ing_squalane`, `ing_glycerin`) |
+| `ing_*` (×100) | TF-IDF binary indicators for top 100 ingredients (e.g., `ing_water`, `ing_glycerin`) |
 | `secondary_category` | One-hot encoded |
 | `brand_group` | One-hot encoded |
 | `price_usd` | StandardScaler normalized |
