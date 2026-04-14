@@ -53,21 +53,21 @@ GlowSense solves this by predicting product success **before launch** using ML &
 ads508-FinalProject-Team1/
 │
 ├── Notebooks/
-│   ├── sephora_pipeline.ipynb       # Data ingestion & S3 upload pipeline
-│   ├── sephora-eda.ipynb            # Exploratory data analysis
-│   ├── feature_engineering.ipynb    # Feature creation & transformation
-│   ├── modeling_products.ipynb      # Product-based regression models
-│   └── modeling_reviews.ipynb       # Review-based classification models
+│   ├── 00_sagemaker_setup.ipynb                    # Basic setup including loading libraries
+│   ├── 01_data_ingestion_and_EDA.ipynb             # Data ingestion, S3 upload pipeline & exploratory data analysis
+│   ├── 02_data_transformation_engineering.ipynb    # Feature creation & transformation
+│   ├── 03_data_pipeline.ipynb                      # Data engineering pipeline
+│   └── 04_modeling.ipynb                           # Product-based and review-based models
 │
 ├── data/
-│   └── README.md                    # Data access instructions (files stored in S3)
+│   └── README.md                                   # Data access instructions (files stored in S3)
 │
 ├── docs/
-│   ├── Assignment2_1_Team1.docx     # Design document Part 1
-│   ├── Assignment3_1_Team1.docx     # Data exploration
-│   ├── Assignment4_1_Team1.docx     # Data preparation & feature engineering
-│   ├── Assignment5_1_Team1.docx     # Model training
-│   └── Assignment6_1_Team1.docx     # Future enhancements
+│   ├── Assignment2_1_Team1.docx                    # Design document Part 1
+│   ├── Assignment3_1_Team1.docx                    # Data exploration
+│   ├── Assignment4_1_Team1.docx                    # Data preparation & feature engineering
+│   ├── Assignment5_1_Team1.docx                    # Model training
+│   └── Assignment6_1_Team1.docx                    # Future enhancements
 │
 └── README.md
 ```
@@ -187,7 +187,7 @@ Amazon SageMaker Studio    Amazon Athena
 | **scikit-learn** | Feature engineering, modeling, tuning |
 | **XGBoost** | Gradient boosted model (SageMaker built-in) |
 | **VADER** | Sentiment scoring on review text |
-| **TF-IDF / CountVectorizer** | Text & ingredient feature extraction |
+| **TF-IDFVectorizer** | Text & ingredient feature extraction |
 | **seaborn / matplotlib** | EDA visualization |
 
 ---
