@@ -10,7 +10,7 @@
 
 | Name | GitHub |
 |------|--------|
-| Jee Hun Hwang | [@jimmyhwang](https://github.com/jimmyhwang) |
+| Jee Hun Hwang | [@jeehunhwang](https://github.com/jeehunhwang) |
 | Lei Lin | [@leilin](https://github.com/leilin) |
 | Michelle (Xuan) Wang | [@xuany823](https://github.com/xuany823) |
 
